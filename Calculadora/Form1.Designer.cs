@@ -53,7 +53,7 @@
             // 
             // uno
             // 
-            this.uno.BackColor = System.Drawing.Color.GreenYellow;
+            this.uno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.uno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uno.BackgroundImage")));
             this.uno.Location = new System.Drawing.Point(15, 123);
             this.uno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -114,13 +114,14 @@
             // 
             // seis
             // 
+            this.seis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.seis.Location = new System.Drawing.Point(110, 170);
             this.seis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.seis.Name = "seis";
             this.seis.Size = new System.Drawing.Size(66, 28);
             this.seis.TabIndex = 5;
             this.seis.Text = "6";
-            this.seis.UseVisualStyleBackColor = true;
+            this.seis.UseVisualStyleBackColor = false;
             this.seis.Click += new System.EventHandler(this.button6_Click);
             // 
             // siete
@@ -191,24 +192,26 @@
             // 
             // buttonPotenciaCuadrada
             // 
+            this.buttonPotenciaCuadrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.buttonPotenciaCuadrada.Location = new System.Drawing.Point(14, 309);
             this.buttonPotenciaCuadrada.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonPotenciaCuadrada.Name = "buttonPotenciaCuadrada";
             this.buttonPotenciaCuadrada.Size = new System.Drawing.Size(87, 28);
             this.buttonPotenciaCuadrada.TabIndex = 12;
             this.buttonPotenciaCuadrada.Text = "^2";
-            this.buttonPotenciaCuadrada.UseVisualStyleBackColor = true;
+            this.buttonPotenciaCuadrada.UseVisualStyleBackColor = false;
             this.buttonPotenciaCuadrada.Click += new System.EventHandler(this.buttonPotencia_Click);
             // 
             // buttonFactorial
             // 
+            this.buttonFactorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.buttonFactorial.Location = new System.Drawing.Point(108, 309);
             this.buttonFactorial.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonFactorial.Name = "buttonFactorial";
             this.buttonFactorial.Size = new System.Drawing.Size(87, 28);
             this.buttonFactorial.TabIndex = 13;
             this.buttonFactorial.Text = "Factorial";
-            this.buttonFactorial.UseVisualStyleBackColor = true;
+            this.buttonFactorial.UseVisualStyleBackColor = false;
             this.buttonFactorial.Click += new System.EventHandler(this.buttonFactorial_Click);
             // 
             // buttonClear
@@ -267,20 +270,21 @@
             // 
             // buttonPotencia
             // 
+            this.buttonPotencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.buttonPotencia.Location = new System.Drawing.Point(204, 309);
             this.buttonPotencia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonPotencia.Name = "buttonPotencia";
             this.buttonPotencia.Size = new System.Drawing.Size(87, 28);
             this.buttonPotencia.TabIndex = 19;
             this.buttonPotencia.Text = "n^n";
-            this.buttonPotencia.UseVisualStyleBackColor = true;
+            this.buttonPotencia.UseVisualStyleBackColor = false;
             this.buttonPotencia.Click += new System.EventHandler(this.buttonPotencia_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(380, 495);
             this.Controls.Add(this.buttonPotencia);
             this.Controls.Add(this.buttonMultiplicacion);
