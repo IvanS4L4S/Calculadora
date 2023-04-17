@@ -121,7 +121,7 @@ namespace Calculadora
         private void buttonFactorial_Click(object sender, EventArgs e)
         {
             operacion1 = ingreso;
-            operacion = '!';
+            operacion = 'f';
             ingreso = string.Empty;
         }
 
@@ -186,16 +186,14 @@ namespace Calculadora
                 }
 
             }
-            if (operacion == '!')
+            if (operacion == 'f')
             {
-                double acumulador=0;
-                double num=0;
-                while(num == num1){
-                    num1 = num1 - 1;
-                    acumulador=acumulador*num;
-                    num++;
+                double fact = 1;
+                for (int i = 1; i <= num1; i++)
+                {
+                    fact *= i;
                 }
-                textBox1.Text = result.ToString();
+                textBox1.Text = fact.ToString();
             }
             if (operacion == '^')
             {

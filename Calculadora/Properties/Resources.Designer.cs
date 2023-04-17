@@ -59,25 +59,5 @@ namespace Calculadora.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap image_2022_11_22_12_28_11 {
-            get {
-                object obj = ResourceManager.GetObject("image_2022-11-22_12-28-11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap image_2022_11_22_12_28_54 {
-            get {
-                object obj = ResourceManager.GetObject("image_2022-11-22_12-28-54", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
