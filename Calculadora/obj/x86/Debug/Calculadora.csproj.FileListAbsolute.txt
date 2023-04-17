@@ -1,0 +1,7 @@
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\obj\x86\Debug\Calculadora.Form1.resources
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\obj\x86\Debug\Calculadora.Properties.Resources.resources
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\obj\x86\Debug\Calculadora.csproj.GenerateResource.Cache
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\obj\x86\Debug\Calculadora.exe
+C:\Users\IVAN\Desktop\prancticaLPOO\Calculadora\Calculadora\obj\x86\Debug\Calculadora.pdb
